@@ -1,0 +1,16 @@
+=> WHAT IS JS ?
+    JS STANDS JAVASCRIPT WHICH IS USED TO PERFORM OPERATIONS ON A WEBPAGE.
+    USE TO SEND OR RECEIVE DATA FROM SERVERS.
+
+    JAVASCRIPT IS A SCRIPTING LANGUAGE WHICH IS LIGHT WEIGHT. 
+
+=> IN HOW MANY WAYS WE CAN USE JS ?
+    THERE ARE THREE WAYS TO USE JS 
+        1. inside of body tag
+        2. inside of head tag   
+        3. external js 
+
+=> TO LINK EXTERNAL JS WHICH TAG AND ATTRIBUTE DO WE USE ?
+    script tag is used to link external js 
+    and 'src' attribute is used to link particular file 
+

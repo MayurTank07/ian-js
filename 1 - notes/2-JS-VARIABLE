@@ -1,0 +1,45 @@
+// => WHAT IS VARIABLE IN JS ?
+//     VARIBALE IS A CONTAINER IN WHICH WE STORE DATA. 
+//     TO CREATE VARIABLE IN JS WE USE -
+//      "var" keyword 
+
+
+// => IN HOW MANY WAYS WE CAN CREATE A VARIABLE IN JS?
+//     1. var
+//     2. const 
+//     3. let 
+
+
+// 1. var --> var is a keyword which is used to create a varibale in js 
+
+// EXAMPLE - 
+    
+//     var no1 = 10;
+//     var ename = "dexter";
+
+//     document.writeln(no1);
+//     document.writeln("My name is : ", ename);
+
+
+// 2. const --> to create a constant variable we will use const keyword 
+//     // (CONSTANT VARIBALE DOESN'T CHANGE)
+
+//     var a = 10;
+//     document.writeln(a);  --> 10
+//     a = 30;
+//     document.writeln(a);  --> 30
+
+//     const b = 20; 
+//     document.writeln(b);  --> 20
+    
+//     b = 30;
+//     document.writeln(b);  --> error
+
+
+// 3. let --> use to create variables in js
+
+//     let a = 10;
+//     let b = 20;
+//     document.writeln(a+b); --> 30
+
+
