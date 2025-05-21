@@ -1,0 +1,43 @@
+=> WHAT IS DATATYPE ?
+    DATATYPE IS USED TO SPECIFY WHICH TYPE OF DATA WE ARE GOING TO STORE INSIDE OF VARIABLE.
+
+    var a = 10;  --> number
+    var b = "dexter" --> string 
+    var c = 99.88  --> decimal point 
+
+    TO DISPLAY TYPE OF DATA USING document.writeln() we use 'typeof' keyword 
+
+    var a = 10;  --> number
+    var b = "dexter" --> string 
+    var c = 99.88  --> decimal point 
+
+    document.writeln(a);  --> 10
+    document.writeln(typeof a);  --> number
+
+    document.writeln(b);  --> "dexter"
+    document.writeln(typeof b);  --> string 
+
+=> TYPES OF DATATYPE IN JS --
+    1. PRIMITIVE DATATYPE
+    2. NON PRIMITIVE DATATYPE
+
+
+
+1. PRIMITIVE DATATYPE
+
+| Data Type   | Description                        | Example                 |
+| ----------- | ---------------------------------- | ----------------------- |
+| `string`    | Text data                          | `"hello"`, `'StarX'`    |
+| `number`    | Integer or floating-point numbers  | `42`, `3.14`            |
+| `boolean`   | Logical true/false                 | `true`, `false`         |
+| `undefined` | Variable declared but not assigned | `let x;`                |
+| `null`      | Intentional empty or null value    | `let x = null;`         |
+| `bigint`    | For very large integers            | `12345678901234567890n` |
+| `symbol`    | Unique identifiers                 | `Symbol('id')`          |
+
+
+2. NON PRIMITIVE DATATYPE
+
+| Data Type | Description                   | Example                     |
+| --------- | ----------------------------- | --------------------------- |
+| `object`  | Collection of key-value pairs | `{ name: "dexter", age: 25 }` |
