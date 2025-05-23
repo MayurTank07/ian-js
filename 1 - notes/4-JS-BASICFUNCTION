@@ -1,25 +1,25 @@
-=> WHAT IS FUNCTION ?
+// => WHAT IS FUNCTION ?
 
-    A function is a block of code designed to perform a specific task.
-    It runs only when called (invoked).
+//     A function is a block of code designed to perform a specific task.
+//     It runs only when called (invoked).
 
-    // function defination
-    function msg() {
-        alert("this is alert")  
-    }
+//     // function defination
+//     function msg() {
+//         alert("this is alert")  
+//     }
 
-    //function call
-    msg()
+//     //function call
+//     msg()
 
-=> TYPES OF FUNCTION - 
-    1. BUILT IN FUNCTION 
-    2. USER DEFINED FUNCTION 
+// => TYPES OF FUNCTION - 
+//     1. BUILT IN FUNCTION 
+//     2. USER DEFINED FUNCTION 
 
 
 
-1. BUILT IN FUNCTION --> aise functions jo pahile se bana ke rakhe huye hai js mai 
-    alert(), writeln()
+// 1. BUILT IN FUNCTION --> aise functions jo pahile se bana ke rakhe huye hai js mai 
+//     alert(), writeln()
 
-2. USER DEFINED FUNCTION --> aise functions jo hum banatey hai 
-    msg(), ian(), lopes()
+// 2. USER DEFINED FUNCTION --> aise functions jo hum banatey hai 
+//     msg(), ian(), lopes()
 
