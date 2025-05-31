@@ -20,6 +20,13 @@
 // 1. BUILT IN FUNCTION --> aise functions jo pahile se bana ke rakhe huye hai js mai 
 //     alert(), writeln()
 
+// advantage - 
+    // 1. humey code likhne ki zarurat nahi padhti.. jo pahile se function hai usko hi run karlo and development fast ho jaygi 
+
 // 2. USER DEFINED FUNCTION --> aise functions jo hum banatey hai 
 //     msg(), ian(), lopes()
 
+
+// WHAT IS AN ARGUMENT ?
+
+// ARGUMENT IS VALUES WHICH WE PASS INSIDE OF FUCNTION CALL

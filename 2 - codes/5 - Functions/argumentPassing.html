@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        
+        // ************************* Example 1 ************************* 
+        
+        // function defination
+        function add( no1 , no2 ){
+            document.writeln("Addition of no1 + no2 : " , no1+no2 , "<br><br>");
+        }
+
+        // whatever written inside of function defination ( ) brackets is known as "parameter"
+        function sub( a , b , c ){
+            document.writeln("Subtraction of a - b - c : " ,  a - b - c  , "<br><br>");
+        }
+
+
+
+        // function call
+        add(10, 5);     // whatever written inside of ( ) is known as "arguments"
+        sub(100, 50, 10);
+
+        
+        // ************************* Example 2 ************************* 
+        
+        function namePrinting( firstname , lastname , age ){
+            document.writeln(firstname + " " + lastname + " age : ", age , "<br><br>");
+        }
+
+        namePrinting("dexter", "morgan", 24)
+        namePrinting("ian", "lopes", 21)
+
+
+    </script>
+
+</body>
+</html>

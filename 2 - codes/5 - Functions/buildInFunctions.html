@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h3>CLick on this btn to run alert( ) built in function </h3>
+    <button onclick="clickBtn()">Click me</button>
+
+    <!-- "onclick" is an attribute which says, what to do when you click on btn  -->
+
+    <script>
+        
+        // ************************* Example 1 ************************* 
+
+        // clickBtn() is an user defined function 
+        function clickBtn() {
+            alert("you have clicked on a btn");  //alert() is a built in function
+        }
+
+        // ************************* Example 2 ************************* 
+
+        var no1 = 10, no2 = 4;
+
+        // facing prb to find power
+        document.writeln("no1 * no1 * no1* no1 : ", no1 * no1 * no1* no1, "<br><br><br>");  
+
+        
+        // Math.pow(base, index)
+        // Math is an object
+        // pow() is a built in function
+        
+        var pow = Math.pow(no1, no2);
+        document.writeln("Math.pow(no1, no2) : " , pow , "<br><br><br>");
+
+        var sqrt = Math.sqrt(144);
+        document.writeln("Square root of 144 : ", sqrt)
+
+
+    </script>
+
+</body>
+</html>
