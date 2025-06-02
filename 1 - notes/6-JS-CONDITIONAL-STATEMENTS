@@ -1,0 +1,158 @@
+
+/*
+
+**************** CONDITIONAL STATEMENT *********************
+
+Conditional statements in JavaScript allow you to control the flow of your program by executing different blocks of code based on whether a certain condition is true or false. 
+
+1. if statement
+2. if-else statement
+3. if-else-if ladder statement
+4. nested if 
+
+-----------------------------------------------------
+
+1. if statement - only one condition
+
+SYNTAX - 
+    
+    if( condition ) 
+    {
+        // code
+    }
+
+EXAMPLE 1 - check if age is greater than equal to 18 or not, if yes then print vote !!
+
+    var age = 10;
+
+    if( age >= 18 )
+    {
+        document.writeln("you can vote !!");
+    }
+
+EXAMPLE 2 - check whether number is positive, negative, or zero
+
+    var no = -10;
+
+    if(no > 0)
+    {
+        document.writeln("number is positive");
+    }
+    if(no < 0)
+    {
+        document.writeln("number is negative");
+    }
+    if(no == 0)
+    {
+        document.writeln("number is zero");
+    }
+
+-----------------------------------------------------
+
+2. if-else statement - one block for true statement and one for false statement
+
+SYNTAX -
+
+    if( condition )
+    {
+        // code
+    }
+    else 
+    {
+        // code
+    }
+
+
+Example 1 - 
+
+    var age = 10;
+    if ( age >= 18 )
+    {
+        document.writeln("you can vote");
+    }
+    else 
+    {
+        document.writeln("you cannot vote");
+    }
+
+Example 2 - 
+
+    var num = 10;
+
+    if(num > 0)
+    {
+        document.writeln("no is positive")
+    }
+    else 
+    {
+        document.writeln("no is negative")
+    }
+
+
+3. if-else-if ladder statement - multiple conditions allow
+
+SYANTAX - 
+
+if ( condition )
+{
+    // code
+}
+else if ( condition )
+{
+    // code
+}
+else if ( condition )
+{
+    // code
+}
+        .
+        .
+        .
+else 
+{
+    // code
+}
+
+
+// NOTE - MAKE SURE TO PUT "else" AFTER ALL THE "else if"
+
+
+Example 1 - 
+
+100 to 80  --> A+
+80 to 60 --> A
+60 to 50 --> B
+50 to 35 --> C
+35 below --> fail 
+
+
+var marks = -50;
+
+if ( (marks<=100) && (marks>=80))
+{
+    document.writeln("Grade : A+");
+}
+else if ( (marks<80) && (marks>=60) )
+{
+    document.writeln("Grade : A");
+}
+else if( (marks<60) && (marks>=50))
+{
+    document.writeln("Grade : B");
+}
+else if( (marks<50) && (marks>=35))
+{
+    document.writeln("Grade : C");
+}
+else if( (marks<35) && (marks>=0) )
+{
+    document.writeln("Grade : Fail");
+}
+else 
+{
+    document.writeln("Invalid marks");
+}
+
+
+*/
+
