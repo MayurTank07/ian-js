@@ -154,5 +154,41 @@ else
 }
 
 
+4. NESTED IF ELSE STATEMENT
+
+
+var h = 3, w = 24;
+
+if ( h >= 4 )
+{
+    
+    if ( w >= 25 ){
+        document.write("you can ride !");
+    }
+    else {
+        document.write("less weight!");    
+    } 
+}
+else
+{
+    document.write("less height!")    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 */
+
+
 

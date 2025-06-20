@@ -1,0 +1,49 @@
+
+/* 
+
+    SWITCH -> 
+    - SWITCH IS USED TO CHECK VALUES 
+    - SWITCH HAS MULTIPLE CASES AND CASE VALUES.
+
+    SYNTAX -> 
+
+        switch( expression )
+        {
+            case 1:
+                //code
+            break;
+
+            case 2:
+                //code
+            break;
+
+            case 3:
+                //code
+            break;
+
+        }
+
+    EXAMPLE ->
+    
+        var number = "dexter";
+
+        switch ( number )
+        {
+            case "dexter":
+                //code
+            break;
+
+            case 5:
+                //code
+            break;
+
+            case 10:
+                //code
+            break;
+
+            default :
+                //code
+        }
+
+        NOTE : break is a keyword. to get out of switch block.
+*/
