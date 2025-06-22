@@ -1,0 +1,34 @@
+
+
+INTRO 
+
+- LOOPS ARE USED TO EXECUTE BLOCK OF CODE AGAIN AND AGAIN UNTIL CONDITION GETS FALSE. 
+
+Types of Loops in JavaScript - 
+
+    There are several types of loops present in JavaScript. Such as:
+
+        1. JavaScript while Loop
+        2. JavaScript do-while Loop
+        3. JavaScript for Loop
+        4. JavaScript for…of Loop
+        5. JavaScript for…in Loop
+
+    1. while loop --> 
+
+        - first check the condition if its true then only execute while block.
+        - while loop is also known as pre tested loop
+
+        SYNTAX -->
+
+            while ( condition )
+            {
+                //code
+            }
+
+        Example --> 
+
+            var no = 1;
+
+            
+
