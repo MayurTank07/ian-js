@@ -26,9 +26,32 @@ Types of Loops in JavaScript -
                 //code
             }
 
-        Example --> 
+       
+    2. do-while loop  --> 
 
-            var no = 1;
+        - first execute the do block then check condition 
+        - post tested loop
 
-            
+        SYNTAX -->
+
+            do 
+            {
+                //code
+
+            }while(condition);
+
+    
+    3. for loop --> 
+
+        - first check the condition if its true then only execute for block.
+        - for loop is known as pre tested loop
+        - for loop has initilization , conditon, increment/decrement
+
+        SYNTAX --> 
+
+            for ( initilization ; conditon ; increment/decrement )
+            {
+                // code
+            }
+
 
