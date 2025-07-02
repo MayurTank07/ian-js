@@ -4,14 +4,15 @@
 //     It runs only when called (invoked).
 
 //     // function defination
-//     function msg() {
+//     function msg() 
+//     {
 //         alert("this is alert")  
 //     }
 
 //     //function call
 //     msg()
 
-// => TYPES OF FUNCTION - 
+// => TYPES OF FUNCTIONs - 
 //     1. BUILT IN FUNCTION 
 //     2. USER DEFINED FUNCTION 
 
