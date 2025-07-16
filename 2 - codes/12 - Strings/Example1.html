@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+
+        /*
+            WHAT IS STRING ? 
+
+            -> STRING IS A COLLECTION OF CHARACTERS, WHICH IS REPRESNTED BY " " or ' '.
+            -> STRING HAS MULTIPLE BUILT-IN METHODS 
+
+            Method                      Description                                           Example
+            length                      Returns the number of characters                     "hello".length → 5
+            charAt(index)               Returns the character at given index                 "hello".charAt(1) → 'e'
+            indexOf(substr)             First index of substring                             "hello".indexOf('l') → 2
+            lastIndexOf(substr)         Last index of substring                              "hello".lastIndexOf('l') → 3
+            startsWith(prefix)          Checks if string starts with given substring         "hello".startsWith('he') → true
+            endsWith(suffix)            Checks if string ends with given substring           "hello".endsWith('o') → true
+            substring(start, end)       Extracts from start to end (not including end)       "hello".substring(1, 4) → 'ell'
+            slice(start, end)           Extracts portion of string                           "hello".slice(1, 4) → 'ell'
+            toUpperCase()               Converts to uppercase                                "hello".toUpperCase() → 'HELLO'
+            toLowerCase()               Converts to lowercase                                "HELLO".toLowerCase() → 'hello'
+            trim()                      Removes whitespace from both ends                    " hello ".trim() → 'hello'
+            replace(old, new)           Replaces first occurrence of a substring             "hello".replace('l', 'x') → 'hexlo'
+            split(separator)            Splits into array of substrings                      "a,b,c".split(',') → ['a', 'b', 'c']
+            concat(str2)                Joins two strings                                    "Hello".concat(" World") → 'Hello World'
+
+
+        */
+
+
+
+
+        // first way to create a string
+        var firstname = "dexter";
+        document.writeln(firstname);
+
+
+        // second way to create to string
+        var lastname = 'morgan';
+        document.writeln(lastname);
+
+        // third way to create to string using placeholders
+        // var fullname = firstname + lastname;
+        var fullname = 'My fullname is ${firstname} ${lastname}';
+        document.writeln(fullname);
+
+
+
+
+    </script>
+
+
+</body>
+</html>

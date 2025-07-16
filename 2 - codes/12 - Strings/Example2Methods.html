@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        var name = "dexter morgan";
+
+        var message = "In JavaScript, a string is a sequence of characters used to represent text. Strings are primitive data types and are immutable, meaning once created, they cannot be changed — any operation on a string returns a new string."
+
+        document.writeln(name + "<br><br>");
+
+        document.writeln(message + "<br><br>");
+
+        document.writeln(name.length + "<br><br>");
+        
+        document.writeln(message.length + "<br><br>");
+
+        document.writeln(name.indexOf("r") + "<br><br>")  // returns an index no --> 5
+        
+        document.writeln(message.indexOf("operation") + "<br><br>")  // returns an index no
+        
+        document.writeln(name.charAt(9) + "<br><br>");  // returns a character of particular index no
+        
+        document.writeln(name.lastIndexOf("r") + "<br><br>")  // returns an index no --> 9
+
+        document.writeln(name.startsWith("klaus") + "<br><br>");  // return true or false --> if name is starts with dexter then its true
+
+        document.writeln(name.endsWith("morgan") + "<br><br>");  // return true or false --> if name is ends with morgan then its true
+
+        var partSentence = message.substring(15, 75);  // substring means a small part of a big string
+        document.writeln(partSentence  + "<br><br>");
+
+        var partSentence = message.slice(15, 75);  // slice is same as substring
+        document.writeln(partSentence  + "<br><br>");
+
+
+        document.writeln(name.toUpperCase() + "<br><br>");
+        document.writeln(message.toUpperCase() + "<br><br>");
+
+        document.writeln(name.toLowerCase() + "<br><br>");
+        document.writeln(message.toLowerCase() + "<br><br>");
+
+        var sentence = "      hello i am ian lopes     .    badminton expert       "
+        document.writeln(sentence.trim() + "<br><br>");   // trim() will removes spaces from start and end of the string
+
+
+        document.writeln(name.replace("r", "p") + "<br><br>");
+        document.writeln(name.replaceAll("r", "p") + "<br><br>");
+
+        document.writeln(name.split(" ") + "<br><br>");
+
+        var firstname = "krystal";
+        var lastname = "morgan";
+
+        var fullname = firstname.concat(lastname);  // concat() is a built in method which is used to join strings
+        document.writeln(fullname);
+
+
+    </script>
+
+
+</body>
+</html>
