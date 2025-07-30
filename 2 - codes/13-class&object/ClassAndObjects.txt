@@ -1,0 +1,71 @@
+
+    // function defination
+    function msg()
+    {
+        //code
+        //code
+    }
+
+    msg();   // function call
+
+
+    function ian()
+    {
+        //code
+        //code
+    }
+
+    ian();
+
+-----------------------------------------------
+
+    // class creation
+    class Employee
+    {
+        //code
+        //code
+    }
+
+    var e1 = new Employee();   // object -->  'e1' is an object name
+    var e2 = new EMployee();   // object -->  'e2' is an object name
+-----------------------------------------------
+
+
+    class Employee
+    {
+        function addEmployee()
+        {
+
+        }
+
+        function displayEmployee()
+        {
+
+        }
+    }
+
+    
+    var e1 = new Employee();   // object creation
+    e1.addEmployee();  --> execute addEmployee method from Employee class
+
+
+
+
+
+
+
+
+
+
+
+
+    WHAT IS CLASS ?
+
+    --> CLASS IS A BLUEPRINT, WHERE WE WRITE CODE --> SUCH AS 
+        --> WE CAN CREATE VARIABLE INSIDE OF CLASS
+        --> WE CAN CREATE METHODS INSIDE OF CLASS
+    
+    WHAT IS OBJECT ? 
+
+    --> OBJECT IS AN INSTANCE OF A CLASS
+    --> TO EXECUTE A CLASS WE NEED TO CREATE ITS OBJECT
